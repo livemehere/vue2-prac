@@ -25,6 +25,7 @@ export default {
         { path: '/', name: 'home' },
         { path: '/about', name: 'about' },
         { path: `/user/${this.userId}`, name: `/user/${this.userId}` },
+        { path: `/user/${this.userId}/profile`, name: `/user/${this.userId}/profile` },
       ];
     },
   },
